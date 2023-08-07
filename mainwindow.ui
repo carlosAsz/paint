@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuarchivo">
+    <property name="title">
+     <string>archivo</string>
+    </property>
+    <addaction name="actionnuevo"/>
+    <addaction name="actionguardar"/>
+    <addaction name="actionsalir"/>
+   </widget>
+   <widget class="QMenu" name="menuforma">
+    <property name="title">
+     <string>forma</string>
+    </property>
+    <addaction name="actionlibre"/>
+    <addaction name="actionlineas"/>
+    <addaction name="actionrectangulos"/>
+    <addaction name="actioncirculo"/>
+   </widget>
+   <widget class="QMenu" name="menueditar">
+    <property name="title">
+     <string>editar</string>
+    </property>
+    <addaction name="actiongrosor"/>
+    <addaction name="actioncolor"/>
+   </widget>
+   <addaction name="menuarchivo"/>
+   <addaction name="menuforma"/>
+   <addaction name="menueditar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionnuevo">
+   <property name="text">
+    <string>nuevo</string>
+   </property>
+  </action>
+  <action name="actionguardar">
+   <property name="text">
+    <string>guardar</string>
+   </property>
+  </action>
+  <action name="actionsalir">
+   <property name="text">
+    <string>salir</string>
+   </property>
+  </action>
+  <action name="actionlibre">
+   <property name="text">
+    <string>libre</string>
+   </property>
+  </action>
+  <action name="actionlineas">
+   <property name="text">
+    <string>lineas</string>
+   </property>
+  </action>
+  <action name="actionrectangulos">
+   <property name="text">
+    <string>rectangulos</string>
+   </property>
+  </action>
+  <action name="actioncirculo">
+   <property name="text">
+    <string>circulo</string>
+   </property>
+  </action>
+  <action name="actiongrosor">
+   <property name="text">
+    <string>grosor</string>
+   </property>
+  </action>
+  <action name="actioncolor">
+   <property name="text">
+    <string>color</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
